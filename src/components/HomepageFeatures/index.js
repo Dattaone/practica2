@@ -4,32 +4,36 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Simplifica tu Vida con Nuestros Manuales',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Desde requisitos esenciales hasta 
+        configuraciones avanzadas, te ofrecemos soluciones 
+        prácticas y útiles para optimizar tu entorno.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Desata el Poder de Valet y Nginx',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Aprovecha al máximo tu desarrollo con Valet y Nginx. 
+        Descubre la libertad de trabajar en cualquier lugar 
+        del sistema y desata tu creatividad.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Inicia tu Proyecto con Éxito',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Completa tu proyecto de manera eficiente con nuestras 
+        instrucciones paso a paso. No pierdas más tiempo, comienza a construir tu 
+        aplicación hoy mismo.
+      
       </>
     ),
   },

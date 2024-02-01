@@ -8,9 +8,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Guía de Instalación',
+  tagline: 'Docker, GitLab, SSL y Más en Instancias Linux',
+  favicon: 'img/buho.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -40,19 +40,16 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
+        /* blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        }, */
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -60,27 +57,30 @@ const config = {
     ],
   ],
 
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      
       navbar: {
-        title: 'My Site',
+        title: 'Principal',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Logo',
+          src: 'img/buho.ico',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Manuales',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          
+          
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Dattaone/practica2',
             label: 'GitHub',
             position: 'right',
           },
@@ -93,13 +93,13 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Manuales',
+                to: '/docs/Guia%20de%20instalaciones/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Comunidad',
             items: [
               {
                 label: 'Stack Overflow',
@@ -116,15 +116,12 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Otros',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Dattaone/practica2',
               },
             ],
           },
